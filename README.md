@@ -24,14 +24,14 @@
     ```bash
     yarn install
     ```
-    4. `.env` 파일을 설정합니다. `.env.example` 파일을 참고하여 데이터베이스 접속 정보와 환경 변수들을 설정합니다.
+    4. server 폴더 내의 `.env` 파일을 설정합니다. `.env.example` 파일을 참고하여 데이터베이스 접속 정보와 환경 변수들을 설정합니다.
     ```plaintext
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=yourpassword
-    DB_NAME=kimyaksa
-    PORT=3000
+    MONGODB_URI=mongodb://~~
+    my_client_ID = ''
+    my_client_secret = 'GOCSPX-'
+    JWT_SECRET = ''
     ```
+    server-src-controllers-python 폴더 내의 `credentials.json` 파일을 설정합니다. 이는 알약 인식 시 필요한 구글 드라이브의 알약 인식 모델 클래스에 접근하기 위한 것입니다. 
 
 
 ### 4. 테스트 ###
