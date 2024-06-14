@@ -10,4 +10,10 @@
 ### 3. 설치 및 실행 ###
 * Client
 * Server
+    1. [Node.js](<https://nodejs.org/>)를 설치합니다.
+    2. 레포지토리를 클론합니다:
+    ```bash
+    git clone <https://github.com/Ewhacapston-Team4/KimYaksa.git>
+    cd KimYaksa/server
+    ```
 ### 4. 테스트 ###
