@@ -3,7 +3,7 @@ const { spawn } = require('child_process');
 const searchPillController = {
     searchSeq: (req, res) => {
         const pillName = req.params.pillName;
-        const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/searchSeq.py', pillName]); // 스크립트 경로 수정
+        const python = spawn('python', ['./python/searchSeq.py', pillName]); // 스크립트 경로 수정
         let dataBuffer = Buffer.from('');
 
         python.stdout.on('data', (data) => {
