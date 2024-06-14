@@ -1,8 +1,8 @@
 # KimYaksa #
 
-## Installation ##
-### 1. Client ###
-### 2. Server ###
+### Installation ###
+#### 1. Client ####
+#### 2. Server ####
 
 
 How to build
