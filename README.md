@@ -1,10 +1,13 @@
-# KimYaksa #
-
-### Installation ###
+# 김약사 (KimYaksa) #
+### 프로젝트 소개 ###
+김약사는 타깃 사용자인 노년층이 간편하게 알약 정보를 조회하고 알약 복용을 관리하는 것을 돕는 어플리케이션입니다. 
+### 시스템 요구사항 ###
 #### 1. Client ####
 #### 2. Server ####
-
-
-How to build
-How to install
-How to test
+-Node.js v12 이상
+-npm 또는 yarn 패키지 매니저 (npm 사용 권장)
+-mongoDB
+### 설치 및 실행 ###
+#### 1. Client ####
+#### 2. Server ####
+### 테스트 ###
