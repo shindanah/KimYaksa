@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+pandas
+numpy
+keras
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+pillow
