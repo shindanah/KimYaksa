@@ -18,7 +18,7 @@ const pillController = {
       console.log('Image uploaded and converted to PNG successfully');
 
       // 파이썬 스크립트 실행 코드
-      const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/pill.py', newPath, "cir"]);
+      const python = spawn('python', ['./python/pill.py', newPath, "cir"]);
       let dataBuffer = Buffer.from('');
 
       python.stdout.on('data', (data) => {
@@ -54,7 +54,7 @@ const pillController = {
       console.log('Image uploaded and converted to PNG successfully');
 
       // 파이썬 스크립트 실행 코드
-      const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/pill.py', newPath, "ell"]);
+      const python = spawn('python', ['./python/pill.py', newPath, "ell"]);
       let dataBuffer = Buffer.from('');
 
       python.stdout.on('data', (data) => {
@@ -93,7 +93,7 @@ const pillController = {
       console.log('Image uploaded and converted to PNG successfully');
 
       // 파이썬 스크립트 실행 코드
-      const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/pill.py', newPath, "etc"]);
+      const python = spawn('python', ['./python/pill.py', newPath, "etc"]);
       let dataBuffer = Buffer.from('');
 
       python.stdout.on('data', (data) => {
@@ -129,7 +129,7 @@ const pillController = {
       console.log('Image uploaded and converted to PNG successfully');
 
       // 파이썬 스크립트 실행 코드
-      const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/pill.py', newPath, "obl"]);
+      const python = spawn('python', ['./python/pill.py', newPath, "obl"]);
       let dataBuffer = Buffer.from('');
 
       python.stdout.on('data', (data) => {
@@ -164,7 +164,7 @@ const pillController = {
       console.log('Image uploaded and converted to PNG successfully');
 
       // 파이썬 스크립트 실행 코드
-      const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/pill.py', newPath, "PHO"]);
+      const python = spawn('python', ['./python/pill.py', newPath, "PHO"]);
       let dataBuffer = Buffer.from('');
 
       python.stdout.on('data', (data) => {
@@ -199,7 +199,7 @@ const pillController = {
       console.log('Image uploaded and converted to PNG successfully');
 
       // 파이썬 스크립트 실행 코드
-      const python = spawn('python', ['C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/pill.py', newPath, "TRR"]);
+      const python = spawn('python', ['./python/pill.py', newPath, "TRR"]);
       let dataBuffer = Buffer.from('');
 
       python.stdout.on('data', (data) => {
