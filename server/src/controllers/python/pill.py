@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 
 # 구글 드라이브 api 인증 정보
 credentials = service_account.Credentials.from_service_account_file(
-    "C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/credentials.json",
+    "./credentials.json",
     scopes=["https://www.googleapis.com/auth/drive"]
 )
 
