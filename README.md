@@ -3,11 +3,11 @@
 김약사는 타깃 사용자인 노년층이 간편하게 알약 정보를 조회하고 알약 복용을 관리하는 것을 돕는 어플리케이션입니다. 
 ### 2. 시스템 요구사항 ###
 * Client
-* Server
+* Server\n
 -Node.js v12 이상
 -npm 또는 yarn 패키지 매니저 (npm 사용 권장)
 -mongoDB
 ### 3. 설치 및 실행 ###
 * Client
-* Server
+* Server\n
 ### 4. 테스트 ###
