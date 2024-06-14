@@ -16,4 +16,22 @@
     git clone <https://github.com/Ewhacapston-Team4/KimYaksa.git>
     cd KimYaksa/server
     ```
+    3. 필요한 패키지를 설치합니다:
+    ```bash
+    npm install
+    ```
+    또는
+    ```bash
+    yarn install
+    ```
+    4. `.env` 파일을 설정합니다. `.env.example` 파일을 참고하여 데이터베이스 접속 정보와 환경 변수들을 설정합니다.
+    ```plaintext
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASSWORD=yourpassword
+    DB_NAME=kimyaksa
+    PORT=3000
+    ```
+
+
 ### 4. 테스트 ###
