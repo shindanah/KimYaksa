@@ -47,17 +47,17 @@ def list_folders(folder_id):
 def pill(image_path, label_list, poly):
     # 모델 로드
     if poly == "cir" :
-        loaded_model = models.load_model("C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/cir_pill_classification_model.h5")
+        loaded_model = models.load_model("./cir_pill_classification_model.h5")
     elif poly == "ell" :
-        loaded_model = models.load_model("C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/ell_pill_classification_model.h5")
+        loaded_model = models.load_model("./ell_pill_classification_model.h5")
     elif poly == "etc" :
-        loaded_model = models.load_model("C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/etc_pill_classification_model.h5")
+        loaded_model = models.load_model("./etc_pill_classification_model.h5")
     elif poly == "obl" :
-        loaded_model = models.load_model("C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/obl_pill_classification_model.h5")
+        loaded_model = models.load_model("./obl_pill_classification_model.h5")
     elif poly == "PHO" :
-        loaded_model = models.load_model("C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/PHO_pill_classification_model.h5")
+        loaded_model = models.load_model("./PHO_pill_classification_model.h5")
     elif poly == "TRR" :
-        loaded_model = models.load_model("C:/Users/82104/Node_lecture/medication-alarm/src/controllers/python/TRR_pill_classification_model.h5")
+        loaded_model = models.load_model("./TRR_pill_classification_model.h5")
 
     img = load_img(image_path, target_size=(224, 224))
     img_array = img_to_array(img)
