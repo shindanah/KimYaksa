@@ -36,4 +36,7 @@
     5. server-src-controllers-python 폴더 내의 `credentials.json` 파일을 설정합니다. 이는 알약 인식 시 필요한 알약 인식 모델 클래스가 들어있는 구글 드라이브에 접근하는 api를 사용하기 위함입니다. _(우리의 구글 드라이브에 들어있는 정보이기 때문에 실제로 코드를 실행시키기 위해서는 따로 클래스 정보를 요청하거나, 직접 훈련시킨 모델을 이용할 수 있습니다. 또한, server-src-controllers-python 폴더 내의 pill.py에서 우리의 구글 드라이브에 접근하고, 폴더 아이디를 이용하여 클래스를 추출하는 것을 볼 수 있습니다.)_
     6. 브라우저 또는 API 클라이언트를 사용하여 `http://localhost:3000`으로 접속합니다.
 
-  ___또는 http://10.240.19.83:3000로 서버 접속 가능___
+  ___또는 http://10.240.19.83:3000 로 서버 접속 가능___
+
+[text goes here](#section_name)
+          section_title<a name="section_name"></a>    
