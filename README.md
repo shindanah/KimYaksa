@@ -38,5 +38,4 @@
 
   ___또는 http://10.240.19.83:3000 로 서버 접속 가능___
 
-[text goes here](#section_name)
-          section_title<a name="section_name"></a>    
+[Go To TOP](#TOP)
