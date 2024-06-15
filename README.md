@@ -31,7 +31,4 @@
     my_client_secret = 'GOCSPX-'
     JWT_SECRET = ''
     ```
-    server-src-controllers-python 폴더 내의 `credentials.json` 파일을 설정합니다. 이는 알약 인식 시 필요한 구글 드라이브의 알약 인식 모델 클래스에 접근하기 위한 것입니다. 
-
-
-### 4. 테스트 ###
+    server-src-controllers-python 폴더 내의 `credentials.json` 파일을 설정합니다. 이는 알약 인식 시 필요한 알약 인식 모델 클래스가 들어있는 구글 드라이브에 접근하는 api를 사용하기 위함입니다. (우리의 구글 드라이브에 들어있는 정보이기 때문에 실제로 코드를 실행시키기 위해서는 따로 클래스 정보를 요청하거나, 직접 훈련시킨 모델을 이용할 수 있습니다. 또한, server-src-controllers-python 폴더 내의 pill.py에서 우리의 구글 드라이브에 접근하고, 폴더 아이디를 이용하여 클래스를 추출하는 것을 볼 수 있습니다.)
